@@ -1,0 +1,23 @@
+
+	7zUI - Graphical interface for 7-Zip archives
+
+7zUI is a simple MUI Interface to decompresses 7-Zip archives, created using 
+the latest LZMA SDK by Igor Pavlov.
+
+Features:
+
+ - 100% AmigaOS Native (no ixemul crap)
+ - Fastest as possible atm...
+ - Reasonable memory required
+ - easy to use :)
+
+Limitations:
+
+ - only able to extract archives (no creation)
+ - extracts single coder and packet stream archives only *
+
+
+There are two modes for launching the tool, like a normal MUI program or just
+from CLI given the required arguments, if you give any cli arguments the MUI
+Interface will not be created and just will do what you instruct to do, list
+the archive, test the integrity, or extract it.
